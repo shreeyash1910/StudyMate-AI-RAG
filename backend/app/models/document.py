@@ -37,5 +37,5 @@ class Document(Base):
 
     uploaded_at = Column(
         DateTime,
-        server_default=func.getdate()
+        server_default=func.now()
     )
