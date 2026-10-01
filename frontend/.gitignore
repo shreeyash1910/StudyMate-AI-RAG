@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Uploaded PDFs
+uploads/
+
+# Vector database
+vector_store/
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
